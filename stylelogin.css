@@ -1,0 +1,13 @@
+.container{
+    padding: 25px;   
+    background-color: whitesmoke;  
+}
+button{
+    padding:5px 15px; 
+    background-color:red; 
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
