@@ -1,3 +1,14 @@
+.Sweetpotato-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:auto;
+    background-color: #DD5757;
+}
+.Sweetpotao-heder-right{
+    justify-content: space-between;
+}
 .container{
     padding: 25px;   
     background-color: whitesmoke;  
