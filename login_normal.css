@@ -31,3 +31,7 @@ button{
   width: 100%;
   background-color: #DD5757;
 }
+img:hover,img:active{
+    width: 120px;
+    height: 120px;
+}
