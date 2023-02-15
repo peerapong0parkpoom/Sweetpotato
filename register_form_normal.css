@@ -9,3 +9,7 @@
 .Sweetpotao-heder-right{
     justify-content: space-between;
 }
+.container{
+    padding: 25px;   
+    background-color: whitesmoke;  
+}
