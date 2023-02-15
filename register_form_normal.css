@@ -13,3 +13,12 @@
     padding: 25px;   
     background-color: whitesmoke;  
 }
+.Sweetpotato-footer{
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #DD5757;
+  }

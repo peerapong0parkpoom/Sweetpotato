@@ -15,10 +15,19 @@
 }
 button{
     padding:5px 15px; 
-    background-color:red; 
+    background-color: #DD5757; 
     color: white;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+}
+.Sweetpotato-footer{
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #DD5757;
 }
