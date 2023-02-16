@@ -1,42 +1,90 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login_normal.css">
-    <title>LOGIN</title>
-    <link rel="icon" type="" href="img/sweetpotato.png">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="/register_form_normal.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet_ryu.css">
+  <title>REGISTER</title>
+  <link rel="icon" type="" href="/img/sweetpotato.png">
 </head>
+
 <body>
-    <div class="Sweetpotato-header">
-        <div style="display: flex;">
-          <a href="main-shop-normal.html">
-            <img src="img/sweetpotato.png" alt="" width="100 px" height="100 px">
-          </a>
-          <h1>Sweet Potato</h1>  
-        </div>          
-        <div class="Sweetpotao-heder-right">
-          <img src="img/cart.png" width="100 px" height="100 px">
-          <a href="login_normal.html">
-            <img src="img/account.png" width="100 px" height="100 px">
-          </a>
-        </div>
-      </div>
-    <h1 align = 'center'>Welcome to Sweet Potato ! Please log in.</h1>
-    <div class="container">
-        <label for="uname"  >Username: </label><br>
-        <input type="text" id="uname" name="uname" placeholder="Please enter your username"><br>
-
-        <label for="pass" >Password: </label><br>
-        <input type="password" id="pass" name="pass" placeholder="Please enter your Password"><br>
-
-        <button type="submit" value="Login">login</button>
-        <p>
-            New member?
-            <a href="register_form_normal.html">Register</a> here.
-        </p>
+  <section class="header_section">
+    <a href="main_shop_normal.html">
+        <img class="main_icon" src="img/sweetpotato.png">
+    </a>
+    <div class="main_title">Sweet Potato</div>
+    <div class="right_icon">
+        <a href="login_normal.html">
+            <img class="bar_icon" src="img/account.png">
+        </a>
+        <img class="bar_icon" src="img/cart.png">
     </div>
-    <div class="Sweetpotato-footer"> </div>
+  </section>
+    <section class="main_section main_section_with_footer">
+        <div class="bended_radius_UI">
+            <div class="box_foreground"></div>
+        </div>
+        <section class="main_section_display">
+            <section class="display_section login_section">
+                <section class="title_section">
+                    <div class="title_text">Welcome to Sweet Potato! Please login</div>
+                </section>
+                <section class="body_section">
+                    <div class="box_flow">
+                        <div class="flex_container">
+                            <div class="left_container">
+                                <div class="label_text">
+                                    Username:
+                                </div>
+                                <section class="input_section">
+                                    <input class="input_group" placeholder="Enter your username">
+                                </section>
+                                <div class="label_text">
+                                    Password:
+                                </div>
+                                <section class="input_section">
+                                    <input class="input_group" placeholder="Enter Your Password">
+                                </section>
+                                <div class="footer_space"></div>
+                
+                            </div>
+                            <div class="right_container">
+                                <div class="label_text">
+                                    New member ? <a href="register_form_normal.html" class="regis_txt">Register</a> here.
+                                </div>
+                                <div class="footer_space"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+
+        </section>
+    </section>
+
+    <section class="footerBar_with_BTN">
+        <div class="content_box">
+            <div class="UI_maxWidth">
+                <section class="BTN_group_section">
+                    <div class="content_box">
+                        <div class="BTN_full" >
+                            <span id="reject_txt">
+                                Login
+                            </span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
